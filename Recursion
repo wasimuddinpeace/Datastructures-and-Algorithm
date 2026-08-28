@@ -3,7 +3,11 @@ Anything that can be acheived rescursively can be acheived iteratively.'
 A function calling itself until a base condition is met.
 
 
-
+Recursion
+Base Condition
+Stack overflow | Stacke space
+Recursion Tree
+---------------------------------------------------------------------------------------------------------
 void print(){
 system.out.println("1");
 print();
