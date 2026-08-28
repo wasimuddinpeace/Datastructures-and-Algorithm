@@ -1,4 +1,7 @@
 Recursion: taking a problem and breaking it into smaller problems is recursion
+Anything that can be acheived rescursively can be acheived iteratively.'
+A function calling itself until a  specified condition is met.
+
 
 Fibonacci ---> f(n) =f(n-1) +f(n-2);
 
