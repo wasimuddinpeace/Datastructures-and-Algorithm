@@ -1,8 +1,34 @@
 Recursion: taking a problem and breaking it into smaller problems is recursion
 Anything that can be acheived rescursively can be acheived iteratively.'
-A function calling itself until a  specified condition is met.
+A function calling itself until a base condition is met.
 
 
+
+void print(){
+system.out.println("1");
+print();
+} ---> this will result in Stack overflowsince we dont have base condition - Segmentation (Stack overflow)
+
+Remeber there can be multiple base conditions too
+
+Recursion Tree is function 1 calling print() ---> Print()---> Print() --->Print() this returns and this is recursion tree
+-------------------------------------------------------------------------------------------------
+int Counter = 0;
+
+void print(){
+if(count == 4) // Base condition
+return; // complete function gets terminated then and there.
+}
+ system.out.println(Counter);
+    counter++;//counter = counter+1.;
+    print();
+}
+
+main(){
+   print();
+
+}
+--------------------------------------------------------------------------------------------------------------------------
 Fibonacci ---> f(n) =f(n-1) +f(n-2);
 
 int fib(int n){
