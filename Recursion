@@ -13,3 +13,5 @@ int fib(int n){
         return fib(n-1)+fib(n-2);
        }
 }
+We can optimize this using a technique called Memoization.
+
